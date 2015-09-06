@@ -1,0 +1,942 @@
+{
+   "gameLength": 433,
+   "gameMode": "CLASSIC",
+   "mapId": 11,
+   "bannedChampions": [],
+   "gameType": "MATCHED_GAME",
+   "gameId": 1909240984,
+   "observers": {"encryptionKey": "bhRe3db5acUuuj1VdshemS5yHMjurodB"},
+   "gameQueueConfigId": 2,
+   "gameStartTime": 1438736779014,
+   "participants": [
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4121
+            },
+            {
+               "rank": 3,
+               "masteryId": 4123
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4133
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 3,
+               "masteryId": 4143
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4154
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4213
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5315
+            },
+            {
+               "count": 3,
+               "runeId": 5357
+            },
+            {
+               "count": 9,
+               "runeId": 5402
+            }
+         ],
+         "spell2Id": 12,
+         "profileIconId": 661,
+         "summonerName": "Superliam",
+         "championId": 117,
+         "teamId": 100,
+         "summonerId": 150286,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 1,
+               "masteryId": 4111
+            },
+            {
+               "rank": 4,
+               "masteryId": 4112
+            },
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4151
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 1,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4213
+            },
+            {
+               "rank": 2,
+               "masteryId": 4222
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 683,
+         "summonerName": "thesuperxpaulx",
+         "championId": 6,
+         "teamId": 100,
+         "summonerId": 47992198,
+         "spell1Id": 7
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 2,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 1,
+               "masteryId": 4151
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4214
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4224
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5337
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 900,
+         "summonerName": "Draytnt",
+         "championId": 67,
+         "teamId": 100,
+         "summonerId": 60758874,
+         "spell1Id": 11
+      },
+      {
+         "masteries": [
+            {
+               "rank": 3,
+               "masteryId": 4113
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4213
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            },
+            {
+               "rank": 3,
+               "masteryId": 4233
+            },
+            {
+               "rank": 3,
+               "masteryId": 4234
+            },
+            {
+               "rank": 3,
+               "masteryId": 4241
+            },
+            {
+               "rank": 1,
+               "masteryId": 4242
+            },
+            {
+               "rank": 1,
+               "masteryId": 4243
+            },
+            {
+               "rank": 1,
+               "masteryId": 4244
+            },
+            {
+               "rank": 1,
+               "masteryId": 4251
+            },
+            {
+               "rank": 4,
+               "masteryId": 4252
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5277
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 3,
+         "profileIconId": 588,
+         "summonerName": "lords koko",
+         "championId": 412,
+         "teamId": 100,
+         "summonerId": 48477376,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 1,
+               "masteryId": 4111
+            },
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 3,
+               "masteryId": 4123
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4133
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 3,
+               "masteryId": 4143
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4154
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 1,
+               "masteryId": 4312
+            },
+            {
+               "rank": 3,
+               "masteryId": 4313
+            },
+            {
+               "rank": 3,
+               "masteryId": 4322
+            },
+            {
+               "rank": 1,
+               "masteryId": 4323
+            },
+            {
+               "rank": 1,
+               "masteryId": 4332
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5273
+            },
+            {
+               "count": 9,
+               "runeId": 5289
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5357
+            }
+         ],
+         "spell2Id": 14,
+         "profileIconId": 761,
+         "summonerName": "SuperJanie",
+         "championId": 1,
+         "teamId": 100,
+         "summonerId": 60127701,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4124
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 1,
+               "masteryId": 4151
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5290
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 7,
+         "profileIconId": 899,
+         "summonerName": "Number 1 Dug NA",
+         "championId": 222,
+         "teamId": 200,
+         "summonerId": 25898277,
+         "spell1Id": 4
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4121
+            },
+            {
+               "rank": 3,
+               "masteryId": 4123
+            },
+            {
+               "rank": 1,
+               "masteryId": 4133
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 3,
+               "masteryId": 4143
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4154
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4213
+            },
+            {
+               "rank": 2,
+               "masteryId": 4222
+            },
+            {
+               "rank": 2,
+               "masteryId": 4312
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5273
+            },
+            {
+               "count": 9,
+               "runeId": 5297
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5358
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 19,
+         "summonerName": "RHao29477",
+         "championId": 1,
+         "teamId": 200,
+         "summonerId": 60257095,
+         "spell1Id": 3
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 1,
+               "masteryId": 4121
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4131
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 1,
+               "masteryId": 4141
+            },
+            {
+               "rank": 1,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 6,
+               "runeId": 5289
+            },
+            {
+               "count": 3,
+               "runeId": 5295
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 1,
+               "runeId": 5335
+            },
+            {
+               "count": 2,
+               "runeId": 5337
+            }
+         ],
+         "spell2Id": 14,
+         "profileIconId": 781,
+         "summonerName": "Tooproforyou9",
+         "championId": 120,
+         "teamId": 200,
+         "summonerId": 40292356,
+         "spell1Id": 12
+      },
+      {
+         "masteries": [
+            {
+               "rank": 1,
+               "masteryId": 4111
+            },
+            {
+               "rank": 4,
+               "masteryId": 4112
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4122
+            },
+            {
+               "rank": 1,
+               "masteryId": 4132
+            },
+            {
+               "rank": 3,
+               "masteryId": 4134
+            },
+            {
+               "rank": 3,
+               "masteryId": 4142
+            },
+            {
+               "rank": 1,
+               "masteryId": 4144
+            },
+            {
+               "rank": 3,
+               "masteryId": 4152
+            },
+            {
+               "rank": 1,
+               "masteryId": 4162
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4213
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4231
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5245
+            },
+            {
+               "count": 9,
+               "runeId": 5290
+            },
+            {
+               "count": 9,
+               "runeId": 5315
+            },
+            {
+               "count": 3,
+               "runeId": 5335
+            }
+         ],
+         "spell2Id": 4,
+         "profileIconId": 897,
+         "summonerName": "Snoogley",
+         "championId": 157,
+         "teamId": 200,
+         "summonerId": 21347363,
+         "spell1Id": 14
+      },
+      {
+         "masteries": [
+            {
+               "rank": 4,
+               "masteryId": 4113
+            },
+            {
+               "rank": 1,
+               "masteryId": 4114
+            },
+            {
+               "rank": 3,
+               "masteryId": 4123
+            },
+            {
+               "rank": 1,
+               "masteryId": 4133
+            },
+            {
+               "rank": 2,
+               "masteryId": 4211
+            },
+            {
+               "rank": 2,
+               "masteryId": 4212
+            },
+            {
+               "rank": 2,
+               "masteryId": 4214
+            },
+            {
+               "rank": 1,
+               "masteryId": 4221
+            },
+            {
+               "rank": 3,
+               "masteryId": 4222
+            },
+            {
+               "rank": 1,
+               "masteryId": 4224
+            },
+            {
+               "rank": 1,
+               "masteryId": 4232
+            },
+            {
+               "rank": 3,
+               "masteryId": 4233
+            },
+            {
+               "rank": 1,
+               "masteryId": 4234
+            },
+            {
+               "rank": 1,
+               "masteryId": 4242
+            },
+            {
+               "rank": 1,
+               "masteryId": 4252
+            },
+            {
+               "rank": 3,
+               "masteryId": 4312
+            }
+         ],
+         "bot": false,
+         "runes": [
+            {
+               "count": 9,
+               "runeId": 5247
+            },
+            {
+               "count": 3,
+               "runeId": 5290
+            },
+            {
+               "count": 6,
+               "runeId": 5295
+            },
+            {
+               "count": 9,
+               "runeId": 5317
+            },
+            {
+               "count": 3,
+               "runeId": 5357
+            }
+         ],
+         "spell2Id": 11,
+         "profileIconId": 899,
+         "summonerName": "Random Jak",
+         "championId": 223,
+         "teamId": 200,
+         "summonerId": 37555711,
+         "spell1Id": 4
+      }
+   ],
+   "platformId": "NA1"
+}

@@ -4,8 +4,10 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -19,7 +21,9 @@ import com.google.gson.JsonParser;
  * September 6, 2015 
  * - getMatchlist created and completed
  * - changed getChampion to accept int as input
+ * - changed getSummonerID to return int as output
  * - setKey created for public security
+ * - created test driver
  * 
  */
 
@@ -44,6 +48,7 @@ public class LeagueOfLegends
 		{
 			Scanner sc = new Scanner(new File("E:/api.txt"));
 			key = sc.next();
+			sc.close();
 		}
 		catch (Exception e)
 		{
@@ -53,12 +58,12 @@ public class LeagueOfLegends
 	
 	/**
 	 * Given a summoner name, returns the corresponding summoner id number
-	 * @param  
-	 * @return summoner id as a string
+	 * @param sum_name as a string
+	 * @return summoner id as an integer
 	 */
-	public static String getSummonerID(String sum_name)
+	public static Integer getSummonerID(String sum_name)
 	{
-		String id = "";
+		int id = 0;
 		String URL = baseURL + "/" + region + "/v1.4/summoner/by-name/" + sum_name + "?api_key=" + key;
 		try
 		{
@@ -67,7 +72,7 @@ public class LeagueOfLegends
 	
 			JsonParser jsonParser = new JsonParser();
 			JsonObject sum = (JsonObject)jsonParser.parse(summoner_json).getAsJsonObject();
-			id = sum.getAsJsonObject().get(sum_name).getAsJsonObject().get("id").getAsString();
+			id = sum.getAsJsonObject().get(sum_name).getAsJsonObject().get("id").getAsInt();
 		}
 		catch(Exception e)
 		{
@@ -108,11 +113,11 @@ public class LeagueOfLegends
 	
 	/**
 	 * Given a summoner id, call matchlist to get the role counts of the specified player
-	 * @param sum_id
+	 * @param sum_id as a string
 	 * @return summoner role statistics as a hashmap Hash <\Role(String), NumPlayed(Integer)>.
 	 * Keys: top, jungle, mid, adc, support, total, error (games not recognized by the API)
 	 */
-	public static Map<String, Integer> getMatchlist(String sum_id)
+	public static Map<String, Integer> getMatchlist(int sum_id)
 	{
 		//Hashtable to be returned, and the temp variables to be placed into the hash
 		Map<String, Integer> matchlist = new HashMap<String, Integer>();
@@ -173,7 +178,7 @@ public class LeagueOfLegends
 	 * Given a summoner name, call current game to check if the player is in game.
 	 * If so, retrieve all player information.
 	 * If not, do nothing.
-	 * @param sum_name
+	 * @param sum_name as a string
 	 */
 	public static void getCurrentGame(String sum_name)
 	{
@@ -185,6 +190,7 @@ public class LeagueOfLegends
 				cg += sc.next();
 			}
 			System.out.println(cg);
+			sc.close();
 		}
 		catch (Exception e)
 		{
@@ -207,15 +213,33 @@ public class LeagueOfLegends
 	
 	public static void main (String[] args)
 	{
-		//Scanner sc = new Scanner(System.in);
-		//String sum_name;
-		//System.out.print("Enter a summoner name: ");
-		//sum_name = sc.next();
 		setKey();
-		String id = getSummonerID("norifurikake");
-		System.out.println(id);
-		System.out.println(getMatchlist(id));
-		System.out.println(getChampion(35));
+		
+		//Test Driver to test functionality
+		boolean again = true;
+		while (again)
+		{
+			Scanner sc = new Scanner(System.in);
+			System.out.print("Enter a summoner name: ");
+			String sum_name = sc.nextLine();
+			sum_name = sum_name.replaceAll("\\s","");
+			int id = getSummonerID(sum_name);
+			System.out.println("Player: " + sum_name);
+			System.out.println("ID: " + id);
+			System.out.println("Role Breakdown: " + getMatchlist(id));
+			
+			System.out.print("\nWould you like to enter another summoner name? (y/n): ");
+			String yn = sc.next();
+			if (yn.equals("y"))
+			{
+				//do nothing, will loop again
+			}
+			else
+			{
+				again = false;
+				System.out.println("\nYou have selected no. Program will stop now.");
+			}
+		}
 	}
 }
 
